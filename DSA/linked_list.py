@@ -52,3 +52,30 @@ while head is not None:
     head=head.next
 
 print('None')
+
+
+#--------------------------------Insertion at beginning of linked list---------------------------------------------------------------#
+
+class Node:
+    def __init__(self,data):
+        self.data=data
+        self.next=None
+
+
+#creating mode
+node1=Node(12)
+node2=Node(13)
+node3=Node(15)
+
+
+#1st we store node1 address to head 2nd we creating new node by calling Node class 3rd
+print('insertion node beginning of the linked list: \n')
+
+head=node1
+new_node=Node(16)
+new_node.next=head
+head=new_node
+
+while head is not None:
+    print(head.data,'-----')
+    head=head.next
