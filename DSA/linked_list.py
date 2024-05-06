@@ -77,5 +77,5 @@ new_node.next=head
 head=new_node
 
 while head is not None:
-    print(head.data,'-----')
-    head=head.next
+ print(head.data,'-----')
+ head=head.next
