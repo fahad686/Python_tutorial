@@ -13,6 +13,7 @@
 # Now, compare the second and the third elements. Swap them if they are not in order.
 # The above process goes on until the last element.
 
+
 def bubble_sort(list1):
     for i in range(len(list1)):
         for j in range(0,len(list1)-i-1):
