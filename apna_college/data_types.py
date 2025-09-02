@@ -24,3 +24,4 @@ print(z)
 #power of 2**2 (need double **)
 a=2
 print(a**3)
+
