@@ -45,3 +45,38 @@ c=(a==b or a<b)
 print("c Value is  ",c)
 print('after not c value is: ',not(c))
 
+
+
+############ Python Identity Operators   "is"  return true if belong to same object(like x is y) / "is not" return True if both value  are not same belong to same object( x is not y)
+#Identity operators are used to compare the objects, not if they are equal, but if
+# they are actually the same object, with the same memory location:
+
+
+
+x=10
+y=10
+
+print(x is y) ## belong to same object
+print(x is not y) ### not belong to same object
+
+print(x==y)
+
+
+
+'''Python Membership Operators  rcrdsidn
+Membership operators are used to test if a sequence is presented in an object:'''
+'''in 	Returns True if a sequence with the specified value is present in the object	x in y'''
+
+
+name=['fahad','ali',9]
+print(9 in name)  ## Return True
+
+print('Kiran' in name) ## Return False
+
+
+
+'''
+not in	Returns True if a sequence with the specified 
+value is not present in the object	x not in y'''
+
+print(8 not in name) ## return True
